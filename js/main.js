@@ -1,7 +1,6 @@
 
 // Change button text from "continue reading" to "show less"
 function toggleReadingContinue (t) {
-    console.log(t.innerHTML);
     if (t.innerHTML == "Continue Reading...") {
         t.innerHTML = "Show Less!";
     } else {
@@ -33,12 +32,12 @@ function postBlog() {
                 <!-- Title of blog -->
                 <h5 class="card-title">${blogName}</h5>
                 <p class="card-text">
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="collapseExample${imageNumber}">
                     ${blog}
                 </div>
                 </p>
                 <!-- Toggle Button for Continue Reading and show less option -->
-                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample${imageNumber}" role="button"
                     aria-expanded="false" aria-controls="collapseExample"
                     onclick="toggleReadingContinue(this)">Continue Reading...</a>
                 <!-- Comments Icon with number of comments -->
