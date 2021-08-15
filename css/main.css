@@ -1,7 +1,7 @@
 /* styling company logo */
 .header img{
     width: 10%;
-    margin-left: 20rem;    
+    margin-left: 13rem;    
 }
 
 /* ========================================= */
@@ -18,6 +18,7 @@
     font-weight: bold;
     color: white;
     border-radius: 25px 0 0 25px;
+    z-index: 1;
 }
 /* hover effect on navbar */
 #mySidenav a:hover {
@@ -26,6 +27,7 @@
 /* coloring the navbar */
 #postBlog{
     background-color: orange;
+    transition: 0.5sec;
 }
 #about{
     background-color: rgb(77, 195, 241);
@@ -34,10 +36,7 @@
 
 /* ============================================ */
 
-/* styling content and footer divison */
-.content{
-    margin-left: 80px;
-}
+/* styling content and footer buttons */
 .footer a, .content a{
     background-color: orange;
     font-weight: bold;
@@ -49,32 +48,72 @@
 
 /* ============================================= */
 
-
-.articles{        
-    padding-left: 300px;;
-    padding-right: 300px;;
+/* positioning srticle and footer divison */
+.footer, .articles{       
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
 }
-/* make responsive */
 
 /* ============================================= */
 
-/* positioning every article card */
+/* style every article card */
 .card{    
     padding: 50px;
     margin: 0px 0px 50px 0px;
 }
+.icon{
+    float: right;
+    font-size: 24px;
+} 
 
 /* ============================================= */
 
 /* styling footer area */
-.footer{
-    padding: 0 18rem 10rem 23rem;
-}
 .footer a{
-    font-size: 1.5rem;
-    width: 10%;
+    font-size: large;
     float: right;
 }
 textarea{
     height: 10rem;
+}
+
+/* ============================================== */
+
+/* Responsive CSS code */
+@media only screen and (max-width: 1100px)  {
+    .header img{
+        width: 20%;
+        min-height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+}
+@media only screen and (max-width: 550px)  {
+    .header img{
+        width: 40%;        
+    }
+    #mySidenav a {
+        padding: 10px;
+        right: -120px;
+    }
+    .card{    
+        padding: 10px;
+        margin: 0px 0px 10px 0px;
+    }    
+}
+@media only screen and (max-width: 450px)  {
+    .header img{
+        width: 40%;
+        min-height: 70px;        
+    }
+    .content a{
+        width: 100%;
+        font-size: small;
+    }
+    .icon{
+        margin-top: 10px;
+    }
 }

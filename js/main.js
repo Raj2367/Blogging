@@ -41,7 +41,7 @@ function postBlog() {
                     aria-expanded="false" aria-controls="collapseExample"
                     onclick="toggleReadingContinue(this)">Continue Reading...</a>
                 <!-- Comments Icon with number of comments -->
-                <div style="float: right;"><i class="fa fa-comments-o" style="font-size:24px"> 0</i></div>
+                <div class="icon"><i class="fa fa-comments-o"> 0</i></div>
             </div>
             <!-- Card footer -->
             <div class="card-footer text-muted">
