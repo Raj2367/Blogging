@@ -145,7 +145,32 @@
 
     <!-- footer divison -->
     <div class="footer">
+        <h2 class="header">Share your knowledge here</h2>
 
+        <!-- Form input for user input -->
+        <form>
+
+            <!-- Divison for user name input -->
+            <div class="form-group">
+                <label for="user">User Name</label>
+                <input type="text" class="form-control" id="user" placeholder="Enter User Name">                
+            </div>
+
+            <!-- Divison for blog title input -->
+            <div class="form-group">
+                <label for="blogName">Title of Blog</label>
+                <input type="text" class="form-control" id="blogName" placeholder="Enter Blog title">
+            </div>
+
+            <!-- Divison for blog content input -->
+            <div class="form-group">
+                <label for="blog">Enter your thoughts</label>                
+                <textarea class="form-control" id="blog" aria-label="With textarea" placeholder="Enter your thoughts"></textarea>
+            </div>
+            
+            <!-- Button for Posting blog -->
+            <a href="#header" type="submit" class="btn btn-primary" onclick="postBlog()">Submit</a>
+        </form>
     </div>
 
     <!-- js files added -->
