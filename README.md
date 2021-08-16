@@ -1,6 +1,10 @@
 # Blogging
 Demo Blogging website where people can post articles and customers can benefit from the content
 
+### Project repository link
+```bash
+https://github.com/pruthwirajsimplilearn/Blogging
+```
 ### Installation
 1. Clone the repository
 ```bash
