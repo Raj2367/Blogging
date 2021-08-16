@@ -10,7 +10,9 @@ git clone https://github.com/pruthwirajsimplilearn/Blogging.git
 ### Features
 1. Anyone can access the contents available on the website <img src="https://user-images.githubusercontent.com/41533712/129555007-bb295abb-b82d-4251-8508-8c18881e67b8.png" data-canonical-src="https://user-images.githubusercontent.com/41533712/129555007-bb295abb-b82d-4251-8508-8c18881e67b8.png" width="600" height="400" /><img src="https://user-images.githubusercontent.com/41533712/129555857-75056fc4-6c86-4012-96ff-fcf2f2d2bdfd.png" data-canonical-src="https://user-images.githubusercontent.com/41533712/129555857-75056fc4-6c86-4012-96ff-fcf2f2d2bdfd.png" width="600" height="400" />
 2. A toggle button for show more or show less content 
+
 <img src="https://user-images.githubusercontent.com/41533712/129555885-67fe9741-8daf-4f0f-b8d4-76076528187f.png" data-canonical-src="https://user-images.githubusercontent.com/41533712/129555885-67fe9741-8daf-4f0f-b8d4-76076528187f.png" width="600" height="400" /><img src="https://user-images.githubusercontent.com/41533712/129555905-75763b96-cd3a-4b9d-891b-6b836d401f4a.png" data-canonical-src="https://user-images.githubusercontent.com/41533712/129555905-75763b96-cd3a-4b9d-891b-6b836d401f4a.png" width="600" height="400" />
+
 3. Anyone can post article from this website 
 <img src="https://user-images.githubusercontent.com/41533712/129556391-2fcbdde8-6f49-45d8-adcc-b50d85a9cee7.png" data-canonical-src="https://user-images.githubusercontent.com/41533712/129556391-2fcbdde8-6f49-45d8-adcc-b50d85a9cee7.png" width="600" height="400" />
 4. Responsive webpages for different screen sizes
